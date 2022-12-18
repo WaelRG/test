@@ -541,4 +541,3 @@ $("#scroll-container").on("scroll",  // Event Listener für Scrollen (Mausrad un
 // var test = $(".gr2").css("width");
 // console.log(test);
 
-
