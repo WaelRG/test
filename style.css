@@ -186,7 +186,9 @@ h2 {
   text-align: end;
   margin-top: 1rem;
   z-index: 98;
-  text-align: left;
+  text-align: center;
+  padding-left: 12rem;
+  padding-top: 22rem;
 }
 
 .namen-in-boxen {
@@ -364,7 +366,7 @@ header {
 
 .zwei-personen-box {
   display: grid;
-  grid-template-columns: repeat(3, minmax(3px, 2fr));
+  grid-template-columns: repeat(1, minmax(3px, 2fr));
 }
 
 .leute-boxen {
@@ -765,7 +767,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 3rem;
+  margin-right: -8rem;
+  position: relative;
+  top: -72px;
 }
 
 .h2box {
@@ -1284,7 +1288,7 @@ header {
 
 @media (min-width: 110rem) and (min-height: 57rem) {
   h1 {
-    font-size: 9rem;
+    font-size: 3rem;
     padding-right: 0.5rem;
     color: blue;
   }
@@ -1430,7 +1434,7 @@ header {
 @media (max-width: 75rem) {
   h1 {
     color: rgb(0, 21, 138);
-    font-size: 6rem;
+    font-size: 2rem;
   }
 
   .h1box {
@@ -1516,6 +1520,14 @@ header {
 
   .content-splalte2 {
     display: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 32rm;
+    padding-top: 2rem;
   }
 
   .kachel-container {
