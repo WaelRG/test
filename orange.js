@@ -18,7 +18,7 @@ $(function() {
     
         $(".opener").css("box-shadow", "var(--shadow-out)");
         $(".opener-left").css("left", "-200vw");
-        $(".opener-right").css("right", "-200vw");
+        $(".opener-right").css("right","200vw");
 
         $(this).dequeue();
     }); 
